@@ -50,7 +50,7 @@ fun_botOnOff () {
   	        cd $HOME
           }
           fun_bar 'fun_bot1'
-          [[ $(ps x | grep "bot_plus"|grep -v grep | wc -l) != '0' ]] && echo -e "\n\033[1;32m DARKSSH BOT ON !\033[0m" || echo -e "\n\033[1;31m ERROR! RE-ANALYZE YOUR INFORMATION\033[0m"
+          [[ $(ps x | grep "bot_plus"|grep -v grep | wc -l) != '0' ]] && echo -e "\n\033[1;32m BLACKSSH BOT ON !\033[0m" || echo -e "\n\033[1;31m ERROR! RE-ANALYZE YOUR INFORMATION\033[0m"
           sleep 3
           menu
       } || {
