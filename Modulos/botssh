@@ -30,12 +30,12 @@ tput cnorm
 fun_botOnOff () {
       [[ $(ps x | grep "bot_plus"|grep -v grep | wc -l) = '0' ]] && {
           clear
-          echo -e "\E[44;1;37m             BOT DARKSSH INSTALLER                \E[0m\n"
+          echo -e "\E[44;1;37m             BOT BLACKSSH INSTALLER                \E[0m\n"
           echo -ne "\033[1;32mINFORM YOUR TOKEN:\033[1;37m "; read tokenbot
   	    echo ""
   	    echo -ne "\033[1;32mINFORM YOUR ID:\033[1;37m "; read iduser
           clear
-          echo -e "\033[1;32mSTARTING DARKSSH BOT \033[0m\n"
+          echo -e "\033[1;32mSTARTING BLACKSSH BOT \033[0m\n"
           fun_bot1 () {
   	        [[ ! -e "/etc/SSHPlus/ShellBot.sh" ]] && wget -qO- https://raw.githubusercontent.com/shellscriptx/shellbot/master/ShellBot.sh > /etc/SSHPlus/ShellBot.sh
   	        cd /etc/SSHPlus
@@ -55,7 +55,7 @@ fun_botOnOff () {
           menu
       } || {
           clear
-          echo -e "\033[1;32mSTOPPING BOT DARKSSH ... \033[0m\n"
+          echo -e "\033[1;32mSTOPPING BOT BLACKSSH ... \033[0m\n"
           fun_bot2 () {
               screen -r -S "bot_plus" -X quit
               screen -wipe 1>/dev/null 2>/dev/null
@@ -66,7 +66,7 @@ fun_botOnOff () {
               sleep 1
           }
           fun_bar 'fun_bot2'
-          echo -e "\n\033[1;32m \033[1;31mDARKSSH BOT STOPPED! \033[0m"
+          echo -e "\n\033[1;32m \033[1;31mBLACKSSH BOT STOPPED! \033[0m"
           sleep 3
           menu
       }
