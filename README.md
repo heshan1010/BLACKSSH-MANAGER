@@ -61,4 +61,4 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/Bc
 
 ** BY: 🔰ඩේටා HACKERZ🔰 🇱🇰 **
 
-** <h6><font color="green"> 🔰FEEL THE VENOM🔰 <br>
+<h6><font color="green"> 🔰FEEL THE VENOM🔰 <br>
