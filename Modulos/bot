@@ -27,7 +27,7 @@ fun_menu() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>         # ⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -47,7 +47,7 @@ fun_menu() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>    #      ⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -61,7 +61,7 @@ fun_menu() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>  #      ⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -90,7 +90,7 @@ fun_ajuda() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>  #      ⚡️⚡️ MR YASH😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
@@ -130,7 +130,7 @@ fun_ajuda() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>  #      ⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
@@ -160,7 +160,7 @@ fun_ajuda() {
         env_msg+="<b>----------♻️ BLACKSSH MANAGER ♻️----------</b>\n"
 	env_msg+="<b>  #       ⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>/Telegram- @Whatsapp- +94713729043 </b>\n"
+        env_msg+="<b>/Telegram-Whatsapp- +94713729043 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
@@ -2027,7 +2027,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2037,10 +2037,10 @@ while :; do
                     [[ "$_erro" == '1' ]] && break
                     [[ ${message_text[$id]} != ?(+|-)+([A-Za-z]) ]] && {
                         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                            --text "$(echo -e "❌ Invalid option ❌\n\n⚠️ Use only letters [EX: sithum batrow]")" \
+                            --text "$(echo -e "❌ Invalid option ❌\n\n⚠️ Use only letters [EX: MR YASH]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2060,7 +2060,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
                             --parse_mode html
                     }
                     ;;
@@ -2072,7 +2072,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌ \n\n⚠️ Use only numbers [EX: 1]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ BLACKSSH ◇═ [•]☬" \
                             --parse_mode html
                         >$CAD_ARQ
                         break
@@ -2088,7 +2088,7 @@ while :; do
                     fun_del_user ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ *Successfully removed.* 🚮" \
+                        --text "✅ *Successfully removed.*\n=❌MR YASH❌\n 🚮" \
                         --parse_mode markdown
                     ;;
                 '🔐 Change Password 🔐\n\nUsername:')
@@ -2115,7 +2115,7 @@ while :; do
                     alterar_senha_user $(cat /tmp/name-s) ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ PASSWORD CHANGED !</b> !\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-s)\n<b>New Password:</b> ${message_text[$id]}")" \
+                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ PASSWORD CHANGED !</b> !\n=❌MR YASH❌\n=\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-s)\n<b>New Password:</b> ${message_text[$id]}")" \
                         --parse_mode html
                     rm /tmp/name-s >/dev/null 2>&1
                     ;;
@@ -2143,7 +2143,7 @@ while :; do
                     alterar_limite_user $(cat /tmp/name-l) ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED LIMIT !</b> !\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-l)\n<b>New Limit:</b> ${message_text[$id]}")" \
+                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED LIMIT !</b> !\n=❌MR YASH❌\n=\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-l)\n<b>New Limit:</b> ${message_text[$id]}")" \
                         --parse_mode html
                     rm /tmp/name-l >/dev/null 2>&1
                     ;;
@@ -2169,7 +2169,7 @@ while :; do
                     alterar_data_user $(cat /tmp/name-d) ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED DATE !</b> !\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-d)\n<b>New date:</b> $udata")" \
+                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED DATE !</b> !\n=❌MR YASH❌\n=\n=×=×=×=×=×=×=×=×=×=×=×\n\n<b>User:</b> $(cat /tmp/name-d)\n<b>New date:</b> $udata")" \
                         --parse_mode html
                     rm /tmp/name-d >/dev/null 2>&1
                     ;;
@@ -2237,7 +2237,7 @@ while :; do
                         [[ -e /etc/bot/arquivos/$_file ]] && {
                             rm /etc/bot/arquivos/$_file
                             ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                                --text "✅ *successfully deleted* ✅" \
+                                --text "✅ *successfully deleted* ✅" \n=❌MR YASH❌\n \
                                 --parse_mode markdown
                             break
                         } || {
@@ -2364,7 +2364,7 @@ while :; do
                     _clientrev=$(cat $CAD_ARQ)
                     criar_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ Successfully created. ✅\n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
+                        --text "✅ Successfully created. ✅\n=❌MR YASH❌\n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
                         --parse_mode html
                     ;;
                     # REMOVE REVENDEDOR
@@ -2454,7 +2454,7 @@ while :; do
                     echo -e "Limite: ${message_text[$id]}" >>$CAD_ARQ
                     lim_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ RESALE LIMIT CHANGED !</b> !\n=×=×=×=×=×=×=×=×=×=×=×\n\n$(<$CAD_ARQ)")" \
+                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ RESALE LIMIT CHANGED !</b> !\n=❌MR YASH❌\n=\n=×=×=×=×=×=×=×=×=×=×=×\n\n$(<$CAD_ARQ)")" \
                         --parse_mode html
                     # ALTERAR DATA
                     ;;
@@ -2509,7 +2509,7 @@ while :; do
                     dat_rev $CAD_ARQ
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED RESALE DATE !</b> !\n=×=×=×=×=×=×=×=×=×=×=×\n\n$(<$CAD_ARQ)")" \
+                        --text "$(echo -e "=×=×=×=×=×=×=×=×=×=×=×\n<b>✅ CHANGED RESALE DATE !</b> !\n=❌MR YASH❌\n=\n=×=×=×=×=×=×=×=×=×=×=×\n\n$(<$CAD_ARQ)")" \
                         --parse_mode html
                     ;;
                     # SUSPENDER REVENDEDOR
