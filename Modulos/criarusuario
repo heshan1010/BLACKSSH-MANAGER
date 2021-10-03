@@ -212,7 +212,7 @@ fun_edithost() {
 tput setaf 7;tput setab 4;tput bold;printf '%30s%s%-15s\n' "Create SSH User";tput sgr0
 echo ""
 echo "===================================================="
-echo -e "\033[0;34m  #BY:      🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥         \E[0m"
+echo -e "\033[0;34m  #BY:      🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥         \E[0m"
 echo "===================================================="
 echo ""
 echo -ne "\033[1;32mUsername:\033[1;37m ";read username
@@ -310,7 +310,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		clear
 		echo -e "\E[44;1;37m      SSH ACCOUNT CREATED!      \E[0m"
 		echo ""
-                echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
+                echo -e "\033[1;32m♻️ PAID PRIVATE SSH \n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n ♻️"
                 echo ""
                 echo -e "\033[1;32m$banername"
                 echo -e "\033[1;32m======================"
@@ -373,7 +373,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		clear
 		echo -e "\E[44;1;37m       SSH ACCOUNT CREATED!      \E[0m"
 		echo ""
-		echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
+		echo -e "\033[1;32m♻️ PAID PRIVATE SSH \n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n ♻️"
                 echo ""
                 echo -e "\033[1;32m$banername"
                 echo -e "\033[1;32m======================"
@@ -406,7 +406,7 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 	clear
 	echo -e "\E[44;1;37m       SSH ACCOUNT CREATED!      \E[0m"
 	echo ""
-	echo -e "\033[1;32m♻️Paid Privet SSH ♻️"
+	echo -e "\033[1;32m♻️ Paid Privet SSH \n🔥⚡️⚡️ MR YASH 😍❤️ 🇱🇰 ⚡️⚡️🔥\n ♻️"
         echo ""
         echo -e "\033[1;32m$banername"
         echo -e "\033[1;32m======================"
