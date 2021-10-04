@@ -70,9 +70,9 @@ fun_atts () {
 
 } > /dev/null 2>&1
 
-echo -e "                              \033[1;31mBy 🔥⚡️⚡️ Ｎ ᴏ ᴛ  Ｙ ᴀ ꜱ ʜ 😍❤️ 🇱🇰 ⚡️⚡️🔥\033[1;36m"
+echo -e "                              \033[1;31mBy 🔥⚡️⚡️ DATAKINGDOM⚡️⚡️🔥\033[1;36m"
 
-echo -e "   BLACKSSH" | figlet
+echo -e "   DKSSH" | figlet
 
 echo " "
 
