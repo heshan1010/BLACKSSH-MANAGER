@@ -17,7 +17,7 @@ net.ipv4.tcp_low_latency = 1
 net.ipv4.tcp_slow_start_after_idle = 0" /etc/sysctl.conf > /tmp/syscl && mv /tmp/syscl /etc/sysctl.conf
 sysctl -p /etc/sysctl.conf > /dev/null
 		echo ""
-		echo "As configurações de rede do TCP Tweaker foram removidas com sucesso."
+		echo "As configurações de rede do TCP Tweaker foram REMOVED com SUCCESSED."
 		echo ""
 	exit
 	else 
@@ -46,7 +46,7 @@ net.ipv4.tcp_slow_start_after_idle = 0" >> /etc/sysctl.conf
 echo ""
 sysctl -p /etc/sysctl.conf
 		echo ""
-		echo "As configurações de rede do TCP Tweaker foram adicionadas com sucesso."
+		echo "As configurações de rede do TCP Tweaker foram adicionadas com SUCCESSED."
 		echo ""
 	else
 		echo ""
