@@ -45,7 +45,7 @@ if [[ "$resp" = 's' ]]; then
 	echo ""
 	echo -e "\033[1;33mTORRENT RELEASED!\033[0m"
 	echo ""
-	echo -e "\033[1;32mFIREWALL SUCCESSFULLY REMOVED!"
+	echo -e "\033[1;32mFIREWALL SUCCESSFULLY REMOVED❌!"
 	echo ""
 	if [[ -e /etc/openvpn/openvpn-status.log ]]; then
 		echo -e "\033[1;31m[\033[1;33m!\033[1;31m]\033[1;33m RESTART THE SYSTEM TO COMPLETE"
@@ -160,7 +160,7 @@ fun_spn2
 echo ""
 echo -e "\033[1;33mBLOCK\033[1;37m TORRENT \033[1;33mAPLICADO !\033[0m"
 echo ""
-echo -e "\033[1;32mFIREWALL SUCCESSFULLY APPLIED!"
+echo -e "\033[1;32mFIREWALL ❎SUCCESSFULLY APPLIED❎ !"
 sleep 3
 menu
 else
